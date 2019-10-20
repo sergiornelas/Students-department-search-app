@@ -17,7 +17,8 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 //aqui le cambié
-//mongoose.connect("mongodb://localhost:27017/yelp_camp_v12", {useNewUrlParser: true});
+/*mongoose.connect("mongodb://localhost:27017/yelp_camp_v12", {useNewUrlParser: true});*/
+//mongoose.connect("mongodb://localhost:27017/yelp_camp_v12 Heroku", {useNewUrlParser: true});
 mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
