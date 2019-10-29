@@ -50,4 +50,11 @@ router.get("/logout", function(req, res){
     res.redirect("/campgrounds");
 });
 
+//Sobre nosotros ;)
+router.get("/about", function(req, res){
+    res.render("about"); //mensaje de aviso
+});
+
+
+
 module.exports = router;
