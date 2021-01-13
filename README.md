@@ -2,6 +2,7 @@
 
 ## What I learned:
 - Vanilla JS
+- Create a responsive Website with CSS
 - Node.js
 - To make requests using express.js
 - Mongo DB
