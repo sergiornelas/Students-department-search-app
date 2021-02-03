@@ -4,8 +4,9 @@
 - Vanilla JS
 - Create a responsive Website with CSS
 - Node.js
-- To make requests using express.js
+- HTTP requests using express.js
 - Mongo DB
+- Google maps API integration
 - Bootstrap 4
 
 ## Link:
